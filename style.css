@@ -1,0 +1,291 @@
+@import url('https://fonts.cdnfonts.com/css/nasalization-2');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #1194f1;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+html {
+    scroll-behavior: smooth;
+    cursor: pointer;
+    cursor: help;
+    cursor: progress;
+    cursor: url("img/conner.png"), auto
+  }
+:root {
+    --primary-color: #590016;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.background-home {
+    background: rgb(40, 1, 55);
+    background: linear-gradient(90deg, rgba(40, 1, 55, 1) 0%, rgba(89, 0, 22, 1) 50%, rgba(153, 9, 9, 1) 100%);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+header {
+    position: fixed;
+    z-index: 111;
+    width: 100%;
+    height: 50px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: white;
+    margin-right: 1rem;
+}
+
+.ct-home {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-animation {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo-p {
+    width: 625px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.brilho-png {
+    filter:drop-shadow(0px -2px 15px #ffffff);
+    animation: piscar 2s infinite;
+}
+.link-ss {
+    text-decoration: none;
+}
+
+@keyframes piscar {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.home-a {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+a {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+h1 {
+    font-family: 'Nasalization', sans-serif;
+    color: #ffffff;
+    font-size: 3rem;
+}
+h2 {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+h3 {
+    font-family: "Space Mono", monospace;
+    font-size: 0.7rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    word-spacing: 1.5rem;
+}
+h4 {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.sbackground-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 255, 0), 32%, black);
+    text-align: center;
+}
+.eject {
+    font-size: 100px;
+    color: aliceblue;
+}
+.back-proj {
+    background-color: black;
+}
+.seta {
+    width: 100px;
+}
+.bt-a {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5rem;
+}
+.little-chico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.little-chico-logo {
+    width: 230px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 5rem;
+    transition: .6s ease;
+    z-index: 999;
+}
+.little-chico-logo:hover {
+    transform: scale(1.1);
+
+}
+.txt-lc {
+    width: 250px;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+.txt-lcc {
+    display: flex;
+    width: 100%;
+}
+.og-cp {
+    margin-top: 2.5rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+.mrg {
+    padding-right: 2rem;
+}
+.chico {
+    margin-left: 2rem;
+}
+.receita-proj {
+    display: flex;
+    justify-content: end;
+}
+.skyline {
+    width: 320px;
+    transition: .6s ease;
+}
+.skyline:hover {
+    transform: scale(1.1);
+
+}
+.ct-projetos{
+    padding: 0 2rem;
+}
+.back-proj-2 {
+    background-color: black;
+} 
+.alinha-card {
+    display: flex;
+    justify-content: center;
+}
+.sc-kl {
+    margin: 26rem 0;
+}
+.knowledge {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.github {
+    width: 130px;
+    margin-top: 60px;
+}
+.linkedin {
+    width: 130px;
+    margin-top: 60px;
+}
+.gmail {
+    width: 130px;
+    margin-top: 60px;
+}
+.curras {
+    width: 130px;
+    margin-top: 60px;
+}
+.d-flex-ct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+    transition: .6s ease;
+}
+.d-flex-ct:hover {
+    transform: scale(1.1);
+}
+footer {
+    background-color: black;
+    width: 100%;
+    /* margin-top: 2rem; */
+}
+.ft {
+    background-color: #1194f1;
+    width: 100%;
+    height: 15vh;
+}
+.esp-bot {
+    padding-bottom: 5rem;
+}
+.d-flex-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
